@@ -60,6 +60,7 @@ public class SqlSessionFactoryBuilder {
     }
   }
 
+  // test
   public SqlSessionFactory build(InputStream inputStream) {
     return build(inputStream, null, null);
   }
@@ -88,6 +89,7 @@ public class SqlSessionFactoryBuilder {
     }
   }
 
+  // test
   public SqlSessionFactory build(Configuration config) {
     return new DefaultSqlSessionFactory(config);
   }
